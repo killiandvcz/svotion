@@ -68,4 +68,17 @@
     }
   }
 
+  :root{
+    --svotion-gray-50:  rgb(247, 247, 248);
+    --svotion-gray-100: rgb(236, 236, 238);
+    --svotion-gray-200: rgb(225, 225, 228);
+    --svotion-gray-300: rgb(202, 202, 208);
+    --svotion-gray-400: rgb(162, 162, 172);
+    --svotion-gray-500: rgb(134, 134, 147);
+    --svotion-gray-600: rgb(114, 114, 129);
+    --svotion-gray-700: rgb(97, 97, 110);
+    --svotion-gray-800: rgb(71, 71, 80);
+    --svotion-gray-900: rgb(60, 60, 68);
+  }
+
 </style>
