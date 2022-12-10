@@ -1,4 +1,4 @@
-import {paragraph, heading} from "$lib/utils/gen.utils.js";
+import {paragraph, heading} from "../../utils/gen.utils.js";
 
 export const elements = {
     paragraph: (p) => "p",

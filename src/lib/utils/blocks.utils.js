@@ -1,4 +1,4 @@
-import {paragraph} from "$lib/utils/gen.utils.js";
+import {paragraph} from "./gen.utils.js";
 import {get} from "svelte/store";
 
 export const addBlock = (store, currentID, newBlock = paragraph()) => {

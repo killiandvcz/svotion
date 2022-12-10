@@ -1,4 +1,4 @@
-import {deleteBlock} from "$lib/utils/blocks.utils.js";
+import {deleteBlock} from "../../utils/blocks.utils.js";
 
 export const options = {
     delete: {

@@ -5,6 +5,8 @@
     import Heading from "$lib/svotion/molecules/Heading.svelte";
     import {addBlock} from "$lib/utils/blocks.utils.js";
 
+    export let value = "";
+
     const initialBlock = paragraph("")
     const blocks = writable([initialBlock]);
     const history = writable([]);
@@ -20,6 +22,7 @@
         if($history.length > 30) {
             history.update(h => h.slice(1));
         }
+        value = JSON.stringify(bs);
     })
 
     const addToEnd = () => {
@@ -56,8 +59,6 @@
   .editor {
     padding: 15px 5px;
     width: 100%;
-    height: 100%;
-    max-width: 700px;
     border-radius: 7px;
     background-color: white;
     border: 1px solid var(--svotion-gray-200);
