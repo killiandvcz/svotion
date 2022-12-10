@@ -1,6 +1,6 @@
 {
-  "name": "svotion",
-  "version": "0.0.1",
+  "name": "@killiandvcz/svotion",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite dev",
     "build": "svelte-kit sync && svelte-package",
